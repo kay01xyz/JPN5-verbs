@@ -68,7 +68,7 @@
             }
             @page {
                 margin: 1cm;
-                size: A4 landscape;
+                size: A4 portrait;
             }
         }
         ruby { ruby-align: center; }
@@ -787,7 +787,7 @@
                 
                 const table = document.createElement('table');
                 const headerRow = table.insertRow();
-                ["辭書形", "ます形", "て形", "た形", "ない形", "English"].forEach(header => {
+                ["辭書形", "ます形", "て形", "た形", "ない形"].forEach(header => {
                     const th = document.createElement('th');
                     th.textContent = header;
                     headerRow.appendChild(th);
